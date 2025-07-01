@@ -124,7 +124,7 @@ header {
 
 .section-links .links a {
   width: 90%;
-  max-width: 500px;
+  max-width: 400px;
   background: rgba(255, 154, 225, 0.774);
   display: flex;
   justify-content: center;
@@ -178,6 +178,7 @@ footer {
   }
 
   .section-links .links a {
+    max-width: 500px;
     border-radius: 30px;
     padding: 20px 0;
   }
