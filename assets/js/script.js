@@ -7,7 +7,7 @@ shareButton.addEventListener("click", async () => {
     try {
       await navigator.share({
         title: document.title,
-        text: "",
+        text: "Confira meu cartão digital",
         url: window.location.href,
       });
     } catch (error) {
